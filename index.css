@@ -216,8 +216,7 @@ h1{
 
 .contact form {
     width: 100px;
-    margin-left: 330px;
-   
+    margin-left: 240px;
 }
 input{
     width: 700px;
@@ -245,15 +244,18 @@ textarea{
     background-color:white;
     color: red;
 }
-/* @media screen {max-width:425px;}
- .img{
-    flex-direction: column;
- .parent{
-    grid-template-columns: 1fr;
- }
- .discription{
-    flex-direction: column;
- }
- .footer{
-    flex-direction: column;
- } */
+  /* @media screen and (max-width:425px){
+    .body{
+        background-color:blue;
+        flex-direction: column;}
+
+      .parent{
+        grid-template-columns: 1fr;
+     }
+     .discription{
+        flex-direction: column;
+     }
+     .footer{
+        flex-direction: column;
+     }
+    }  */
